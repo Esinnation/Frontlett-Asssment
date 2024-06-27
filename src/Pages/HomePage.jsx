@@ -28,9 +28,9 @@ const HomePage = () => {
       {/* {popUp && <Newsletter setPopUp={setPopUp/>} */}
       <div
         className={!popUp ?
-          'fixed top-0 bottom-0 lg:top-auto right-[-100%] lg:bottom-12 duration-500 ease-in-out'
+          'fixed top-0 bottom-0 z-50 lg:top-auto right-[-100%] lg:bottom-12 duration-500 ease-in-out'
           :
-          'fixed top-[50%] px-4 lg:px-0 lg:top-auto duration-500 ease-in-out right-0 lg:bottom-12'
+          'fixed top-[50%] px-4 lg:px-0 z-50 lg:top-auto duration-500 ease-in-out right-0 lg:bottom-12'
         }
       >
         {popUp && <Newsletter setPopUp={setPopUp}/>}
