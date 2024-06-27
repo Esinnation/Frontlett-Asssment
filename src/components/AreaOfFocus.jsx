@@ -9,7 +9,7 @@ const AreaOfFocus = () => {
         <AreasContainer color={'#F47733'} no={'02'} text={'On-Demand & As- A-Service'} />
         <AreasContainer color={'#FF78BF'} no={'03'} text={'Marketplace & Crowdsourcing'} />
         <AreasContainer color={'#20888F'} no={'04'} text={'Aggregation & Shared Economy'} />
-        <AreasContainer color={'#FF88C6'} no={'05'} text={'Decentralized Economy & Digital Assets'} />
+        <AreasContainer color={'#FF78BF'} no={'05'} text={'Decentralized Economy & Digital Assets'} />
       </div>
     </div>
   )
